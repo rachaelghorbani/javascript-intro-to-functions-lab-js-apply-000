@@ -7,5 +7,17 @@ function whisper(string){
 };
 
 function logShout(string){
-  var 
+  var upperCase = string.toUpperCase();
+  console.log(upperCase);
+};
+
+function logWhisper(string){
+  var lowerCase = string.toLowerCase();
+  console.log(lowerCase);
+}
+
+function sayHiToGrandma(string){
+  if(string.toLowerCase() === true){
+    return "I can't hear you!";
+  }
 }
